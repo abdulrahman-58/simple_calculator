@@ -25,10 +25,10 @@ else if (answer.operator === "Multiplication") {
 else if (answer.operator === "Division") {
   console.log(answer.firstNumber / answer.secondNumber);
 }
-else if(answer.operators === "Exponentiation"){
+else if(answer.operator === "Exponentiation"){
     console.log(answer.firstNumber ** answer.secondNumber);
 }
-else if(answer.operators === "Modulus"){
+else if(answer.operator === "Modulus"){
     console.log(answer.firstNumber % answer.secondNumber);
 } else {
   console.log("Please select valid operator");
